@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "classicobsidian"
+version = "${version}"
+displayName = "Classic Obsidian Tools"
+authors = "Isabel Maskrey"
+description = '''
+Adds unbreakable obsidian tools that work at the same level as stone!
+'''
+logoFile = "assets/classicobsidian/icon.png"
+
+[[dependencies.classicobsidian]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.classicobsidian]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.classicobsidian]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.6.92,)"
+ordering = "AFTER"
+side = "BOTH"
