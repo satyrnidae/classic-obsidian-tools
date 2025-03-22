@@ -6,7 +6,6 @@
   "client": [
   ],
   "mixins": [
-    "DiggerItemAccessor",
     "ItemAccessor"
   ],
   "injectors": {

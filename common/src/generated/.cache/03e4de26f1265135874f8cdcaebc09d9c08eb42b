@@ -1,0 +1,8 @@
+// 1.19.2	2025-03-22T01:54:18.7338702	Tags for minecraft:item
+ea6e5faa7cdf5da7dc6bb4f82c2e192872062346 data/c/tags/items/tools.json
+eddbbe3d1ea144e5b8694cf651dd1a6617839102 data/c/tags/items/tools/melee_weapon.json
+179f46c70d54d908dc8b2b6704c48753ddeb4077 data/c/tags/items/tools/mining_tool.json
+9400de44a6ab667060bc6c730e8f0be4b5d0168b data/forge/tags/items/tools/axes.json
+0dd42e40eb6158a32661090ed763c280a089a9c3 data/forge/tags/items/tools/hoes.json
+179f46c70d54d908dc8b2b6704c48753ddeb4077 data/forge/tags/items/tools/pickaxes.json
+a0709490e148745a520e58a67f843767de1e0daf data/forge/tags/items/tools/swords.json

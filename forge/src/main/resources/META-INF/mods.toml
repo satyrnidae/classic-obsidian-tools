@@ -11,7 +11,7 @@ authors = "Isabel Maskrey"
 description = '''
 Adds unbreakable obsidian tools that work at the same level as stone!
 '''
-logoFile = "assets/classicobsidian/icon.png"
+logoFile = "assets/classicobsidian/textures/item/obsidian_pickaxe.png"
 
 [[dependencies.classicobsidian]]
 modId = "forge"

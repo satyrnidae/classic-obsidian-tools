@@ -12,14 +12,11 @@
     "sources": "https://github.com/satyrnidae/classic-obsidian-tools"
   },
   "license": "MIT",
-  "icon": "assets/classicobsidian/icon.png",
+  "icon": "assets/classicobsidian/textures/item/obsidian_pickaxe.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.satyrn.classicobsidian.fabric.ClassicObsidianFabric"
-    ],
-    "client": [
-      "dev.satyrn.classicobsidian.fabric.client.ClassicObsidianFabricClient"
+      "dev.satyrn.classicobsidian.fabric.COModFabric"
     ]
   },
   "mixins": [

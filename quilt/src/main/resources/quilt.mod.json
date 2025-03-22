@@ -10,15 +10,12 @@
       "contributors": {
         "Me!": "Author"
       },
-      "icon": "assets/classicobsidian/icon.png"
+      "icon": "assets/classicobsidian/textures/item/obsidian_pickaxe.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "dev.satyrn.classicobsidian.quilt.ClassicObsidianQuilt"
-      ],
-      "client_init": [
-        "dev.satyrn.classicobsidian.quilt.client.ClassicObsidianQuiltClient"
+        "dev.satyrn.classicobsidian.quilt.COModQuilt"
       ]
     },
     "depends": [
