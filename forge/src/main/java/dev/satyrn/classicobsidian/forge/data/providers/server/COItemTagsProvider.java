@@ -16,34 +16,41 @@ public class COItemTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags() {
-        this.tag(COTags.Items.CONVENTIONAL_TOOL)
+        this.tag(COTags.Conventional.Items.TOOLS)
                 .replace(false)
                 .add(COItems.OBSIDIAN_AXE.get())
                 .add(COItems.OBSIDIAN_HOE.get())
                 .add(COItems.OBSIDIAN_PICKAXE.get())
                 .add(COItems.OBSIDIAN_SHOVEL.get())
                 .add(COItems.OBSIDIAN_SWORD.get());
-        this.tag(COTags.Items.CONVENTIONAL_TOOLS_MELEE_WEAPON)
+        this.tag(COTags.Conventional.Items.Tools.MELEE_WEAPON)
                 .replace(false)
                 .add(COItems.OBSIDIAN_AXE.get())
                 .add(COItems.OBSIDIAN_SWORD.get());
-        this.tag(COTags.Items.CONVENTIONAL_TOOLS_MINING_TOOL)
+        this.tag(COTags.Conventional.Items.Tools.MINING_TOOL)
                 .replace(false)
                 .add(COItems.OBSIDIAN_PICKAXE.get());
-        this.tag(COTags.Items.FORGE_TOOLS_AXES)
+        this.tag(COTags.Forge.Items.Tools.AXES)
                 .replace(false)
                 .add(COItems.OBSIDIAN_AXE.get());
-        this.tag(COTags.Items.FORGE_TOOLS_HOES)
+        this.tag(COTags.Forge.Items.Tools.HOES)
                 .replace(false)
                 .add(COItems.OBSIDIAN_HOE.get());
-        this.tag(COTags.Items.FORGE_TOOLS_PICKAXES)
+        this.tag(COTags.Forge.Items.Tools.PICKAXES)
                 .replace(false)
                 .add(COItems.OBSIDIAN_PICKAXE.get());
-        this.tag(COTags.Items.FORGE_TOOLS_SHOVELS)
+        this.tag(COTags.Forge.Items.Tools.SHOVELS)
                 .replace(false)
                 .add(COItems.OBSIDIAN_SHOVEL.get());
-        this.tag(COTags.Items.FORGE_TOOLS_SWORDS)
+        this.tag(COTags.Forge.Items.Tools.SWORDS)
                 .replace(false)
+                .add(COItems.OBSIDIAN_SWORD.get());
+        this.tag(COTags.Conventional.Items.ENCHANTABLES)
+                .replace(false)
+                .add(COItems.OBSIDIAN_AXE.get())
+                .add(COItems.OBSIDIAN_HOE.get())
+                .add(COItems.OBSIDIAN_PICKAXE.get())
+                .add(COItems.OBSIDIAN_SHOVEL.get())
                 .add(COItems.OBSIDIAN_SWORD.get());
     }
 }
