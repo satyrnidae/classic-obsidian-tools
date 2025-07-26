@@ -6,7 +6,7 @@ import dev.satyrn.classicobsidian.item.trades.ModItemTrade;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.minecraft.world.entity.npc.VillagerProfession;
 
-public final class COModFabricLike {
+public final class FabricLike {
     public static void init() {
         // Run our common setup.
         ClassicObsidian.init();
@@ -15,6 +15,7 @@ public final class COModFabricLike {
             final int toolsmithLevelNeeded = ClassicObsidian.getConfig().trading().toolsmithLevelNeeded();
             final int weaponsmithLevelNeeded = ClassicObsidian.getConfig().trading().weaponsmithLevelNeeded();
 
+            ClassicObsidian.info("Adding trades to toolsmith at level {}", toolsmithLevelNeeded);
             TradeOfferHelper.registerVillagerOffers(VillagerProfession.TOOLSMITH, toolsmithLevelNeeded,
                     itemListings -> itemListings.add(new ModItemTrade(ModItems.OBSIDIAN_AXE, 28, 3, 15)));
             TradeOfferHelper.registerVillagerOffers(VillagerProfession.TOOLSMITH, weaponsmithLevelNeeded,
@@ -24,6 +25,7 @@ public final class COModFabricLike {
             TradeOfferHelper.registerVillagerOffers(VillagerProfession.TOOLSMITH, toolsmithLevelNeeded,
                     itemListings -> itemListings.add(new ModItemTrade(ModItems.OBSIDIAN_SHOVEL, 14, 3,15)));
 
+            ClassicObsidian.info("Adding trades to weaponsmith at level {}", weaponsmithLevelNeeded);
             TradeOfferHelper.registerVillagerOffers(VillagerProfession.WEAPONSMITH, weaponsmithLevelNeeded,
                     itemListings -> itemListings.add(new ModItemTrade(ModItems.OBSIDIAN_SWORD, 8, 3, 15)));
         }

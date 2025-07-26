@@ -2,7 +2,7 @@ package dev.satyrn.classicobsidian.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import dev.satyrn.classicobsidian.fabriclike.COModFabricLike;
+import dev.satyrn.classicobsidian.fabriclike.FabricLike;
 
 public final class MainEntrypoint implements ModInitializer {
     @Override
@@ -12,6 +12,6 @@ public final class MainEntrypoint implements ModInitializer {
         // Proceed with mild caution.
 
         // Run the Fabric-like setup.
-        COModFabricLike.init();
+        FabricLike.init();
     }
 }

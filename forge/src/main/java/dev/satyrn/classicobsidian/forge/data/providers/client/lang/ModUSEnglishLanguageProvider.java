@@ -18,16 +18,27 @@ public final class ModUSEnglishLanguageProvider extends LanguageProvider {
         this.add(ModItems.OBSIDIAN_SHOVEL.get(), "Obsidian Shovel");
         this.add(ModItems.OBSIDIAN_SWORD.get(), "Obsidian Sword");
 
-        this.addConfig("title", "Classic Obsidian");
+        this.addConfig("title", "Classic Obsidian Tools Options");
         this.addConfigOption("trading", "Villager Trades");
         this.addConfigOption("trading.villagerTradingEnabled", "Enable villager trades");
         this.addConfigOption("trading.enchantedTrades", "Trade for enchanted obsidian items");
         this.addConfigOption("trading.toolsmithLevelNeeded", "Toolsmith trade level (1-5)");
         this.addConfigOption("trading.weaponsmithLevelNeeded", "Weaponsmith trade level (1-5)");
+
+        this.addTip("title", "Classic Obsidian Tools Tip");
+        this.addTip("toolsmith", "Toolsmiths can sell unbreakable obsidian tools!");
+        this.addTip("weaponsmith", "Weaponsmiths can sell unbreakable obsidian swords!");
+        this.addTip("mining_speed", "Obsidian tools are unbreakable, but don't offer any bonus to mining speed.");
+        this.addTip("stone_equivalent", "Obsidian tools are equivalent to stone tools, but never wear out.");
+        this.addTip("create_machines", "Because they never break, obsidian tools are ideal for automation!");
     }
 
     private void addConfig(String key, String name) {
         this.add("text.autoconfig." + ClassicObsidian.MOD_ID + "." + key, name);
+    }
+
+    private void addTip(String key, String name) {
+        this.add(ClassicObsidian.MOD_ID + ".tip." + key, name);
     }
 
     private void addConfigOption(String key, String name) {

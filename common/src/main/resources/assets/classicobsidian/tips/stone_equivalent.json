@@ -1,0 +1,11 @@
+{
+  "title": {
+    "translate": "classicobsidian.tip.title",
+    "color": "purple",
+    "bold": true,
+    "underlined": true
+  },
+  "tip": {
+    "translate": "classicobsidian.tip.stone_equivalent"
+  }
+}

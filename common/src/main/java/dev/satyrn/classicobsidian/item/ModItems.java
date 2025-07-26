@@ -7,6 +7,7 @@ import dev.satyrn.classicobsidian.mixin.ItemAccessor;
 import dev.satyrn.classicobsidian.util.NotInitializable;
 import net.minecraft.core.Registry;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.state.BlockState;
 
 public final class ModItems {
     public static final RegistrySupplier<Item> OBSIDIAN_SWORD;
@@ -31,6 +32,11 @@ public final class ModItems {
                 public boolean isEnchantable(ItemStack itemStack) {
                     return true;
                 }
+
+                @Override
+                public float getDestroySpeed(ItemStack stack, BlockState state) {
+                    return 1.0F;
+                }
             };
             ((ItemAccessor) item).setMaxDamage(0);
             return item;
@@ -51,6 +57,11 @@ public final class ModItems {
                 @Override
                 public boolean isEnchantable(ItemStack itemStack) {
                     return true;
+                }
+
+                @Override
+                public float getDestroySpeed(ItemStack stack, BlockState state) {
+                    return 1.0F;
                 }
             };
             ((ItemAccessor) item).setMaxDamage(0);
@@ -73,6 +84,11 @@ public final class ModItems {
                 public boolean isEnchantable(ItemStack itemStack) {
                     return true;
                 }
+
+                @Override
+                public float getDestroySpeed(ItemStack stack, BlockState state) {
+                    return 1.0F;
+                }
             };
             ((ItemAccessor) item).setMaxDamage(0);
             return item;
@@ -94,6 +110,11 @@ public final class ModItems {
                 public boolean isEnchantable(ItemStack itemStack) {
                     return true;
                 }
+
+                @Override
+                public float getDestroySpeed(ItemStack stack, BlockState state) {
+                    return 1.0F;
+                }
             };
             ((ItemAccessor) item).setMaxDamage(0);
             return item;
@@ -114,6 +135,11 @@ public final class ModItems {
                 @Override
                 public boolean isEnchantable(ItemStack itemStack) {
                     return true;
+                }
+
+                @Override
+                public float getDestroySpeed(ItemStack stack, BlockState state) {
+                    return 1.0F;
                 }
             };
             ((ItemAccessor) item).setMaxDamage(0);
