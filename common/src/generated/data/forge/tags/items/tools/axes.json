@@ -1,6 +1,9 @@
 {
   "values": [
     "classicobsidian:obsidian_axe",
-    "classicobsidian:obsidian_shovel"
+    {
+      "id": "#forge:tools/axes",
+      "required": false
+    }
   ]
 }

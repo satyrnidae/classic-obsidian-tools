@@ -1,4 +1,4 @@
-package dev.satyrn.classicobsidian.forge.data.providers.client;
+package dev.satyrn.classicobsidian.forge.data.providers.client.lang;
 
 import dev.satyrn.classicobsidian.item.COItems;
 import net.minecraft.data.DataGenerator;

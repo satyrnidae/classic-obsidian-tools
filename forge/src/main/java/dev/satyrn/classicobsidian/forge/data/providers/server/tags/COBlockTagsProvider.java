@@ -1,4 +1,4 @@
-package dev.satyrn.classicobsidian.forge.data.providers.server;
+package dev.satyrn.classicobsidian.forge.data.providers.server.tags;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;

@@ -1,6 +1,10 @@
 {
   "values": [
     "classicobsidian:obsidian_axe",
-    "classicobsidian:obsidian_sword"
+    "classicobsidian:obsidian_sword",
+    {
+      "id": "#c:tools/melee_weapon",
+      "required": false
+    }
   ]
 }

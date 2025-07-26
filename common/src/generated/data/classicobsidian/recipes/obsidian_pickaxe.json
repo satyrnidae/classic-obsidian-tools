@@ -3,10 +3,10 @@
   "group": "obsidian_pickaxe",
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "tag": "classicobsidian:stick_crafting_materials"
     },
     "X": {
-      "tag": "forge:obsidian"
+      "tag": "classicobsidian:obsidian_crafting_materials"
     }
   },
   "pattern": [

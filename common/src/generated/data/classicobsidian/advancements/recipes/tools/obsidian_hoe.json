@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:obsidian"
-            ]
+            "tag": "classicobsidian:obsidian_crafting_materials"
           }
         ]
       },
@@ -15,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "classicobsidian:obsidian_sword"
+        "recipe": "classicobsidian:obsidian_hoe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "classicobsidian:obsidian_sword"
+      "classicobsidian:obsidian_hoe"
     ]
   }
 }

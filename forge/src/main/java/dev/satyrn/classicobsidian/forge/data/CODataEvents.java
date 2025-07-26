@@ -1,10 +1,11 @@
 package dev.satyrn.classicobsidian.forge.data;
 
 import dev.satyrn.classicobsidian.COModCommon;
-import dev.satyrn.classicobsidian.forge.data.providers.client.COLanguageProvider;
-import dev.satyrn.classicobsidian.forge.data.providers.server.COBlockTagsProvider;
-import dev.satyrn.classicobsidian.forge.data.providers.client.COItemModelProvider;
-import dev.satyrn.classicobsidian.forge.data.providers.server.COItemTagsProvider;
+import dev.satyrn.classicobsidian.forge.data.providers.client.lang.COLanguageProvider;
+import dev.satyrn.classicobsidian.forge.data.providers.server.recipes.CORecipeProvider;
+import dev.satyrn.classicobsidian.forge.data.providers.server.tags.COBlockTagsProvider;
+import dev.satyrn.classicobsidian.forge.data.providers.client.models.COItemModelProvider;
+import dev.satyrn.classicobsidian.forge.data.providers.server.tags.COItemTagsProvider;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,5 +20,6 @@ public class CODataEvents {
         event.getGenerator().addProvider(event.includeServer(), new COItemTagsProvider(event.getGenerator(), blockTagsProvider, event.getModContainer().getModId(), event.getExistingFileHelper()));
         event.getGenerator().addProvider(event.includeClient(), new COItemModelProvider(event.getGenerator(), event.getModContainer().getModId(), event.getExistingFileHelper()));
         event.getGenerator().addProvider(event.includeClient(), new COLanguageProvider(event.getGenerator(), event.getModContainer().getModId()));
+        event.getGenerator().addProvider(event.includeServer(), new CORecipeProvider(event.getGenerator()));
     }
 }

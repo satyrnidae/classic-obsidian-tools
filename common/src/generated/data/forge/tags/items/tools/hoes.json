@@ -1,5 +1,9 @@
 {
   "values": [
-    "classicobsidian:obsidian_hoe"
+    "classicobsidian:obsidian_hoe",
+    {
+      "id": "#forge:tools/hoes",
+      "required": false
+    }
   ]
 }

@@ -4,6 +4,10 @@
     "classicobsidian:obsidian_hoe",
     "classicobsidian:obsidian_pickaxe",
     "classicobsidian:obsidian_shovel",
-    "classicobsidian:obsidian_sword"
+    "classicobsidian:obsidian_sword",
+    {
+      "id": "#c:tools",
+      "required": false
+    }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "values": [
     "classicobsidian:obsidian_axe",
-    "classicobsidian:obsidian_hoe",
     "classicobsidian:obsidian_pickaxe",
-    "classicobsidian:obsidian_shovel",
+    "classicobsidian:obsidian_hoe",
     "classicobsidian:obsidian_sword",
+    "classicobsidian:obsidian_shovel",
     {
-      "id": "#c:enchantables",
+      "id": "#forge:tools",
       "required": false
     }
   ]

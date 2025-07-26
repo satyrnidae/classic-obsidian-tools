@@ -1,0 +1,9 @@
+{
+  "values": [
+    "classicobsidian:obsidian_shovel",
+    {
+      "id": "#forge:tools/shovels",
+      "required": false
+    }
+  ]
+}

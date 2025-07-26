@@ -1,5 +1,9 @@
 {
   "values": [
-    "classicobsidian:obsidian_pickaxe"
+    "classicobsidian:obsidian_pickaxe",
+    {
+      "id": "#forge:tools/pickaxes",
+      "required": false
+    }
   ]
 }
