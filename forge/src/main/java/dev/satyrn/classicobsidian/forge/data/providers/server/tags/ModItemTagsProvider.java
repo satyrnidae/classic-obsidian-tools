@@ -12,7 +12,7 @@ import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
-public class ModItemTagsProvider extends ItemTagsProvider {
+public final class ModItemTagsProvider extends ItemTagsProvider {
 
     public ModItemTagsProvider(DataGenerator arg, BlockTagsProvider arg2, String modId, @Nullable ExistingFileHelper existingFileHelper) {
         super(arg, arg2, modId, existingFileHelper);

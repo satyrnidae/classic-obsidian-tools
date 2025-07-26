@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
 import java.util.function.Supplier;
 
-public class ModItemModelProvider extends ItemModelProvider {
+public final class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(DataGenerator generator, String modid, ExistingFileHelper existingFileHelper) {
         super(generator, modid, existingFileHelper);
     }

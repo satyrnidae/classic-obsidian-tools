@@ -8,7 +8,7 @@ import dev.satyrn.classicobsidian.util.NotInitializable;
 import net.minecraft.core.Registry;
 import net.minecraft.world.item.*;
 
-public class ModItems {
+public final class ModItems {
     public static final RegistrySupplier<Item> OBSIDIAN_SWORD;
     public static final RegistrySupplier<Item> OBSIDIAN_SHOVEL;
     public static final RegistrySupplier<Item> OBSIDIAN_PICKAXE;

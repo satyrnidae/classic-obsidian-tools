@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.NotNull;
 
 @Mod.EventBusSubscriber(modid = ClassicObsidian.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class DataEvents {
+public final class DataEvents {
     private DataEvents() {
         NotInitializable.staticClass(DataEvents.class);
     }

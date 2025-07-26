@@ -5,7 +5,7 @@ import dev.satyrn.classicobsidian.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
 
-public class ModUSEnglishLanguageProvider extends LanguageProvider {
+public final class ModUSEnglishLanguageProvider extends LanguageProvider {
     public ModUSEnglishLanguageProvider(DataGenerator gen, String modid) {
         super(gen, modid, "en_us");
     }

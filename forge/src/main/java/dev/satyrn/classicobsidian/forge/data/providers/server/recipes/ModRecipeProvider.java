@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
 import java.util.function.Consumer;
 
-public class ModRecipeProvider extends RecipeProvider {
+public final class ModRecipeProvider extends RecipeProvider {
     public ModRecipeProvider(DataGenerator arg) {
         super(arg);
     }

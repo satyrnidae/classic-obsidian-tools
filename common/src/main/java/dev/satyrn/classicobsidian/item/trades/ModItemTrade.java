@@ -12,7 +12,7 @@ import net.minecraft.world.item.trading.MerchantOffer;
 
 import java.util.function.Supplier;
 
-public class ModItemTrade implements VillagerTrades.ItemListing {
+public final class ModItemTrade implements VillagerTrades.ItemListing {
     private final int baseEmeraldCost;
     private final int maxUses;
     private final int villagerXp;
