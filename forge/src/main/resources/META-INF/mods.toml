@@ -7,11 +7,11 @@ license = "MIT"
 modId = "classicobsidian"
 version = "${version}"
 displayName = "Classic Obsidian Tools"
-authors = "Isabel Maskrey"
+authors = "satyrnidae"
 description = '''
 Adds unbreakable obsidian tools that work at the same level as stone!
 '''
-logoFile = "assets/classicobsidian/textures/item/obsidian_pickaxe.png"
+logoFile = "icon.png"
 
 [[dependencies.classicobsidian]]
 modId = "forge"

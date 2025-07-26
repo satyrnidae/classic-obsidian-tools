@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import dev.satyrn.classicobsidian.fabriclike.COModFabricLike;
 
-public final class COModFabric implements ModInitializer {
+public final class MainEntrypoint implements ModInitializer {
     @Override
     public void onInitialize() {
         // This code runs as soon as Minecraft is in a mod-load-ready state.

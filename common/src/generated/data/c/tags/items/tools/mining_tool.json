@@ -1,9 +1,5 @@
 {
   "values": [
-    "classicobsidian:obsidian_pickaxe",
-    {
-      "id": "#c:tools/melee_weapon",
-      "required": false
-    }
+    "classicobsidian:obsidian_pickaxe"
   ]
 }

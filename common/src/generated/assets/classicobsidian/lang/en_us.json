@@ -3,5 +3,11 @@
   "item.classicobsidian.obsidian_hoe": "Obsidian Hoe",
   "item.classicobsidian.obsidian_pickaxe": "Obsidian Pickaxe",
   "item.classicobsidian.obsidian_shovel": "Obsidian Shovel",
-  "item.classicobsidian.obsidian_sword": "Obsidian Sword"
+  "item.classicobsidian.obsidian_sword": "Obsidian Sword",
+  "text.autoconfig.classicobsidian.option.trading": "Villager Trades",
+  "text.autoconfig.classicobsidian.option.trading.enchantedTrades": "Trade for enchanted obsidian items",
+  "text.autoconfig.classicobsidian.option.trading.toolsmithLevelNeeded": "Toolsmith trade level (1-5)",
+  "text.autoconfig.classicobsidian.option.trading.villagerTradingEnabled": "Enable villager trades",
+  "text.autoconfig.classicobsidian.option.trading.weaponsmithLevelNeeded": "Weaponsmith trade level (1-5)",
+  "text.autoconfig.classicobsidian.title": "Classic Obsidian"
 }

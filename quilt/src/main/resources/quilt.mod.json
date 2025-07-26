@@ -6,16 +6,19 @@
     "version": "${version}",
     "metadata": {
       "name": "Classic Obsidian Tools",
-      "description": "This is an example description! Tell everyone what your mod is about!",
+      "description": "Adds unbreakable obsidian tools that work at the same level as stone!",
       "contributors": {
-        "Me!": "Author"
+        "satyrnidae": "Author"
       },
-      "icon": "assets/classicobsidian/textures/item/obsidian_pickaxe.png"
+      "icon": "icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "dev.satyrn.classicobsidian.quilt.COModQuilt"
+        "dev.satyrn.classicobsidian.quilt.InitEntrypoint"
+      ],
+      "modmenu": [
+        "dev.satyrn.classicobsidian.fabriclike.ModMenuEntrypoint"
       ]
     },
     "depends": [
@@ -34,6 +37,10 @@
       {
         "id": "architectury",
         "version": ">=6.6.92"
+      },
+      {
+        "id": "cloth-config",
+        "version": ">=8.3.134"
       }
     ]
   },

@@ -2,6 +2,11 @@ plugins {
     id 'com.github.johnrengelman.shadow'
 }
 
+repositories {
+    maven { url "https://maven.shedaniel.me/" }
+    maven { url "https://maven.terraformersmc.com/releases/" }
+}
+
 loom {
     forge {
         mixinConfig "classicobsidian.mixins.json"
@@ -47,6 +52,10 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
+
+    modImplementation("me.shedaniel.cloth:cloth-config-forge:${rootProject.cloth_config_version}") {
+        exclude(group: "dev.architectury")
+    }
 }
 
 processResources {

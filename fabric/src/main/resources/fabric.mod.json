@@ -5,18 +5,21 @@
   "name": "Classic Obsidian Tools",
   "description": "Adds unbreakable obsidian tools that work at the same level as stone!",
   "authors": [
-    "Isabel Maskrey"
+    "satyrnidae"
   ],
   "contact": {
     "homepage": "https://satyrn.dev/",
     "sources": "https://github.com/satyrnidae/classic-obsidian-tools"
   },
   "license": "MIT",
-  "icon": "assets/classicobsidian/textures/item/obsidian_pickaxe.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.satyrn.classicobsidian.fabric.COModFabric"
+      "dev.satyrn.classicobsidian.fabric.MainEntrypoint"
+    ],
+    "modmenu": [
+      "dev.satyrn.classicobsidian.fabriclike.client.ModMenuEntrypoint"
     ]
   },
   "mixins": [
@@ -27,6 +30,10 @@
     "minecraft": "~1.19.2",
     "java": ">=17",
     "architectury": ">=6.6.92",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "cloth-config": ">=8.3.134"
+  },
+  "suggests": {
+    "modmenu": "4.1.2"
   }
 }

@@ -5,7 +5,7 @@ import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 
 import dev.satyrn.classicobsidian.fabriclike.COModFabricLike;
 
-public final class COModQuilt implements ModInitializer {
+public final class InitEntrypoint implements ModInitializer {
     @Override
     public void onInitialize(ModContainer mod) {
         // Run the Fabric-like setup.

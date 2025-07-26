@@ -1,9 +1,5 @@
 {
   "values": [
-    "classicobsidian:obsidian_sword",
-    {
-      "id": "#forge:tools/swords",
-      "required": false
-    }
+    "classicobsidian:obsidian_sword"
   ]
 }

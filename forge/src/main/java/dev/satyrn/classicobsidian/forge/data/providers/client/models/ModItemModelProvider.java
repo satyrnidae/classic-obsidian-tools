@@ -1,6 +1,6 @@
 package dev.satyrn.classicobsidian.forge.data.providers.client.models;
 
-import dev.satyrn.classicobsidian.item.COItems;
+import dev.satyrn.classicobsidian.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -13,18 +13,18 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
 import java.util.function.Supplier;
 
-public class COItemModelProvider extends ItemModelProvider {
-    public COItemModelProvider(DataGenerator generator, String modid, ExistingFileHelper existingFileHelper) {
+public class ModItemModelProvider extends ItemModelProvider {
+    public ModItemModelProvider(DataGenerator generator, String modid, ExistingFileHelper existingFileHelper) {
         super(generator, modid, existingFileHelper);
     }
 
     @Override
     protected void registerModels() {
-        this.handheldItem(COItems.OBSIDIAN_AXE);
-        this.handheldItem(COItems.OBSIDIAN_HOE);
-        this.handheldItem(COItems.OBSIDIAN_PICKAXE);
-        this.handheldItem(COItems.OBSIDIAN_SHOVEL);
-        this.handheldItem(COItems.OBSIDIAN_SWORD);
+        this.handheldItem(ModItems.OBSIDIAN_AXE);
+        this.handheldItem(ModItems.OBSIDIAN_HOE);
+        this.handheldItem(ModItems.OBSIDIAN_PICKAXE);
+        this.handheldItem(ModItems.OBSIDIAN_SHOVEL);
+        this.handheldItem(ModItems.OBSIDIAN_SWORD);
     }
 
     @SuppressWarnings("UnusedReturnValue")
