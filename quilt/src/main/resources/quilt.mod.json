@@ -2,7 +2,7 @@
   "schema_version": 1,
   "quilt_loader": {
     "group": "${group}",
-    "id": "classicobsidian",
+    "id": "classic_obsidian",
     "version": "${version}",
     "metadata": {
       "name": "Classic Obsidian Tools",
@@ -43,8 +43,5 @@
         "version": ">=8.3.134"
       }
     ]
-  },
-  "mixin": [
-    "classicobsidian.mixins.json"
-  ]
+  }
 }

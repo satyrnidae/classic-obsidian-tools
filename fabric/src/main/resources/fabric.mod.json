@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "classicobsidian",
+  "id": "classic_obsidian",
   "version": "${version}",
   "name": "Classic Obsidian Tools",
   "description": "Adds unbreakable obsidian tools that work at the same level as stone!",
@@ -22,9 +22,6 @@
       "dev.satyrn.classicobsidian.fabriclike.client.ModMenuEntrypoint"
     ]
   },
-  "mixins": [
-    "classicobsidian.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.16.10",
     "minecraft": "~1.19.2",

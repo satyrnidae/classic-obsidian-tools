@@ -14,7 +14,10 @@ import org.jetbrains.annotations.Nullable;
 
 public final class ModItemTagsProvider extends ItemTagsProvider {
 
-    public ModItemTagsProvider(DataGenerator arg, BlockTagsProvider arg2, String modId, @Nullable ExistingFileHelper existingFileHelper) {
+    public ModItemTagsProvider(DataGenerator arg,
+                               BlockTagsProvider arg2,
+                               String modId,
+                               @Nullable ExistingFileHelper existingFileHelper) {
         super(arg, arg2, modId, existingFileHelper);
     }
 
@@ -29,18 +32,12 @@ public final class ModItemTagsProvider extends ItemTagsProvider {
         this.tag(ConventionalItemTags.Tools.MELEE_WEAPON)
                 .add(ModItems.OBSIDIAN_AXE.get())
                 .add(ModItems.OBSIDIAN_SWORD.get());
-        this.tag(ConventionalItemTags.Tools.MINING_TOOL)
-                .add(ModItems.OBSIDIAN_PICKAXE.get());
-        this.tag(Tags.Items.TOOLS_AXES)
-                .add(ModItems.OBSIDIAN_AXE.get());
-        this.tag(Tags.Items.TOOLS_HOES)
-                .add(ModItems.OBSIDIAN_HOE.get());
-        this.tag(Tags.Items.TOOLS_PICKAXES)
-                .add(ModItems.OBSIDIAN_PICKAXE.get());
-        this.tag(Tags.Items.TOOLS_SHOVELS)
-                .add(ModItems.OBSIDIAN_SHOVEL.get());
-        this.tag(Tags.Items.TOOLS_SWORDS)
-                .add(ModItems.OBSIDIAN_SWORD.get());
+        this.tag(ConventionalItemTags.Tools.MINING_TOOL).add(ModItems.OBSIDIAN_PICKAXE.get());
+        this.tag(Tags.Items.TOOLS_AXES).add(ModItems.OBSIDIAN_AXE.get());
+        this.tag(Tags.Items.TOOLS_HOES).add(ModItems.OBSIDIAN_HOE.get());
+        this.tag(Tags.Items.TOOLS_PICKAXES).add(ModItems.OBSIDIAN_PICKAXE.get());
+        this.tag(Tags.Items.TOOLS_SHOVELS).add(ModItems.OBSIDIAN_SHOVEL.get());
+        this.tag(Tags.Items.TOOLS_SWORDS).add(ModItems.OBSIDIAN_SWORD.get());
         this.tag(Tags.Items.TOOLS)
                 .add(ModItems.OBSIDIAN_AXE.get())
                 .add(ModItems.OBSIDIAN_PICKAXE.get())
@@ -57,7 +54,7 @@ public final class ModItemTagsProvider extends ItemTagsProvider {
                 .add(Items.OBSIDIAN)
                 .add(Items.CRYING_OBSIDIAN)
                 .addOptionalTag(Tags.Items.OBSIDIAN.location())
-                .addOptionalTag(new ResourceLocation("c","obsidians"));
+                .addOptionalTag(new ResourceLocation("c", "obsidians"));
         this.tag(ModItemTags.STICK_CRAFTING_MATERIALS)
                 .add(Items.STICK)
                 .addOptionalTag(Tags.Items.RODS_WOODEN.location())

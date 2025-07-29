@@ -2,7 +2,6 @@ package dev.satyrn.classicobsidian.forge;
 
 import dev.architectury.platform.forge.EventBuses;
 import dev.satyrn.classicobsidian.ClassicObsidian;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.jetbrains.annotations.NotNull;

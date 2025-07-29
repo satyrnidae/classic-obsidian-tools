@@ -1,9 +1,9 @@
 {
   "values": [
-    "classicobsidian:obsidian_axe",
-    "classicobsidian:obsidian_pickaxe",
-    "classicobsidian:obsidian_hoe",
-    "classicobsidian:obsidian_sword",
-    "classicobsidian:obsidian_shovel"
+    "classic_obsidian:obsidian_axe",
+    "classic_obsidian:obsidian_pickaxe",
+    "classic_obsidian:obsidian_hoe",
+    "classic_obsidian:obsidian_sword",
+    "classic_obsidian:obsidian_shovel"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "obsidian_shovel",
+  "key": {
+    "#": {
+      "tag": "classic_obsidian:stick_crafting_materials"
+    },
+    "X": {
+      "tag": "classic_obsidian:obsidian_crafting_materials"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "classic_obsidian:obsidian_shovel"
+  }
+}

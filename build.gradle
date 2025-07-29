@@ -38,7 +38,7 @@ subprojects {
     loom {
         silentMojangMappingsLicense()
         mixin {
-            defaultRefmapName.set('classicobsidian-refmap.json')
+            defaultRefmapName.set('classicobsidian.common.refmap.json')
         }
     }
 

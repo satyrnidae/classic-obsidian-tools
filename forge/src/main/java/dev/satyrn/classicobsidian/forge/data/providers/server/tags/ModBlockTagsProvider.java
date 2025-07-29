@@ -11,5 +11,6 @@ public final class ModBlockTagsProvider extends BlockTagsProvider {
     }
 
     @Override
-    protected void addTags() { }
+    protected void addTags() {
+    }
 }

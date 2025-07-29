@@ -8,13 +8,10 @@ repositories {
 }
 
 loom {
-    forge {
-        mixinConfig "classicobsidian.mixins.json"
-    }
     runs {
         data {
             data()
-            programArgs "--all", "--mod", "classicobsidian"
+            programArgs "--all", "--mod", "classic_obsidian"
             programArgs "--output", file("../common/src/generated").absolutePath
             programArgs "--validate"
             programArgs "--existing", file("../common/src/main/resources").absolutePath

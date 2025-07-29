@@ -4,7 +4,7 @@ loaderVersion = "[43,)"
 license = "MIT"
 
 [[mods]]
-modId = "classicobsidian"
+modId = "classic_obsidian"
 version = "${version}"
 displayName = "Classic Obsidian Tools"
 authors = "satyrnidae"
@@ -13,21 +13,21 @@ Adds unbreakable obsidian tools that work at the same level as stone!
 '''
 logoFile = "icon.png"
 
-[[dependencies.classicobsidian]]
+[[dependencies.classic_obsidian]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.classicobsidian]]
+[[dependencies.classic_obsidian]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.classicobsidian]]
+[[dependencies.classic_obsidian]]
 modId = "architectury"
 mandatory = true
 versionRange = "[6.6.92,)"

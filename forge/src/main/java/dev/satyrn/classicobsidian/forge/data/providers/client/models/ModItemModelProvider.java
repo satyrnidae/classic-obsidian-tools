@@ -28,8 +28,7 @@ public final class ModItemModelProvider extends ItemModelProvider {
     }
 
     @SuppressWarnings("UnusedReturnValue")
-    private ItemModelBuilder handheldItem(Supplier<? extends Item> item)
-    {
+    private ItemModelBuilder handheldItem(Supplier<? extends Item> item) {
         final @NotNull ResourceLocation id = Objects.requireNonNull(ForgeRegistries.ITEMS.getKey(item.get()));
         return this.withExistingParent(id.toString(), "item/handheld")
                 .texture("layer0", new ResourceLocation(id.getNamespace(), "item/" + id.getPath()));

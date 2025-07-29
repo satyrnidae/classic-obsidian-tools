@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "classic_obsidian:item/obsidian_hoe"
+  }
+}

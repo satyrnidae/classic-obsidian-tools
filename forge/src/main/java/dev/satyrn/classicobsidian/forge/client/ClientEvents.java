@@ -18,9 +18,12 @@ public final class ClientEvents {
     }
 
     @SubscribeEvent
+    @Deprecated(forRemoval = true, since = "1.21.1")
+    @SuppressWarnings("removal")
     static void onClient(FMLClientSetupEvent event) {
-        ModLoadingContext.get().registerExtensionPoint(
-                ConfigScreenHandler.ConfigScreenFactory.class, () -> new ConfigScreenHandler.ConfigScreenFactory((client, parent) -> AutoConfig.getConfigScreen(
-                        ModConfig.class, parent).get()));
+        ModLoadingContext.get()
+                .registerExtensionPoint(ConfigScreenHandler.ConfigScreenFactory.class,
+                        () -> new ConfigScreenHandler.ConfigScreenFactory(
+                                (client, parent) -> AutoConfig.getConfigScreen(ModConfig.class, parent).get()));
     }
 }
